@@ -1,5 +1,5 @@
 
-Name of QuantLet : SFEBinomp
+Name of QuantLet: SFEBinomp
 
 Published in: Statistics of Financial Markets
 
@@ -24,7 +24,7 @@ See also:
 - SFEbinomv_log
 
 Author: Alexander Ristig
-Author[Matlab]:Christian Hafner, 981216
+Author[Matlab]: Christian Hafner
 
 Submitted: Sat, July 25 2015 by quantomas
 Submitted[Matlab]: Tue, April 26 by Ya Qian
@@ -34,7 +34,7 @@ Input:
 - k : number of trajectories
 - p : probability of up movement
 
-[Matlab]
+Input[Matlab]:
 - obs : number of observations
 - traj : number of trajectories
 - p : probability of positive step being realised
