@@ -24,10 +24,17 @@ See also:
 - SFEbinomv_log
 
 Author: Alexander Ristig
+Author[Matlab]:Christian Hafner, 981216
 
 Submitted: Sat, July 25 2015 by quantomas
+Submitted[Matlab]: Tue, April 26 by Ya Qian
 
 Input:
 - n : number of observations
 - k : number of trajectories
 - p : probability of up movement
+
+[Matlab]
+- obs : number of observations
+- traj : number of trajectories
+- p : probability of positive step being realised
