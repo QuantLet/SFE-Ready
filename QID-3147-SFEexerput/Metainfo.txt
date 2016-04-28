@@ -2,13 +2,15 @@ Name of QuantLet : SFEexerput
 
 Published in: Statistics of Financial Markets
 
-Description: Calculates the exercise price applying Newton''s method and gets the put option price using the Black Scholes model.
+Description: 'Calculates the exercise price applying Newton''s method and gets the put option price using the Black Scholes model.'
 
 Keywords: Newton, black-scholes, european-option, exercise-price, financial, option, option-price, put
 
 Author: Ying Chen
+Author[Matlab]: Yanwu Wang, Ying Chen 20021128
 
 Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted[Matlab]: Thu, April 28 2016 by Ya Qian
 
 Input:
 - t0 : Spot Date

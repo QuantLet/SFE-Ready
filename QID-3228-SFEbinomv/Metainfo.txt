@@ -9,8 +9,10 @@ Keywords: binomial, density, distribution, estimation, graphical representation,
 See also: SFEBinomp, SFEWienerProcess, SFEbinomv_log
 
 Author: Cindy Lamm, Ying Chen, Christian M. Hafner
+Author[Matlab]: Ying Chen, 021108, Christian Hafner, 981216
 
 Submitted: Sat, June 13 2015 by Lukas Borke
+Submitted[Matlab]: Wed, April 27 2016 by Ya Qian
 
 Input:
 - n : number of steps

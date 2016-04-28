@@ -9,8 +9,10 @@ Keywords: approximation, cdf, distribution, graphical representation, normal, no
 See also: SFENormalApprox1, SFENormalApprox1, SFENormalApprox2, SFENormalApprox3, SFENormalApprox3
 
 Author: Wolfgang K. Haerdle
+Author[Matlab]: Wolfgang Haerdle 20000120
 
 Submitted: Fri, July 17 2015 by quantomas
+Submitted[Matlab]: Wed, April 27 by Ya Qian
 
 Output: 
 - phi : approximation of Normal cdf at different values
