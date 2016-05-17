@@ -23,10 +23,14 @@ Keywords:
 - stock-price
 - time-series
 - volatility
-Author:
-- Julius Mungo
-- Awdesch Melzer
+Author: Awdesch Melzer
+
+Author[Matlab]: Julius Mungo
+
 Submitted: Thu, July 16 2015 by quantomas
+
+Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult
+
 Datafiles:
 - ConVola(FIAPARCH)bayer.txt
 - ConVola(FIAPARCH)ftse.txt

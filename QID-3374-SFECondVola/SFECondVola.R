@@ -1,3 +1,5 @@
+# setwd("C:/...")
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -14,8 +16,7 @@ lines(as.matrix(x1), col = "red3")
 # Bayer
 x = read.table("ConVola(FIAPARCH)bayer.txt")
 n = length(as.matrix(x))
-plot(as.matrix(x), type = "l", ylab = "", xlab = "", col = "blue3", ylim = c(0, 
-    70))
+plot(as.matrix(x), type = "l", ylab = "", xlab = "", col = "blue3", ylim = c(0, 70))
 title("Bayer")
 x1 = read.table("ConVola(HYGARCH)bayer.txt")
 x1 = as.matrix(x1)
