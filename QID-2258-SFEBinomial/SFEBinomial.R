@@ -19,9 +19,9 @@ plot(x, z, col = "red3", lwd = 3, type = "s", ylab = "F(x)")
 
 # parameter settings
 para = c(5, 0.5, 15)
-x1 = para[1] # Value of x
-p1 = para[2] # Probability
-n1 = para[3] # Number n
+x1   = para[1] # Value of x
+p1   = para[2] # Probability
+n1   = para[3] # Number n
 
 print("Binomial distribution for the specified x, p, n")
 print("P(X=x) = f(x) =")
