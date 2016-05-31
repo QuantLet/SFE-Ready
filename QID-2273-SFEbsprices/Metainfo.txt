@@ -10,6 +10,8 @@ See also: SFEBSCopt1, SFEBSCopt2, SFEbsbm, blsprice
 
 Author: Szymon Borak, Elisabeth Bommes
 
+Author[Matlab]: Szymon Borak, Awdesch Melzer
+
 Submitted: Tue, June 17 2014 by Thijs Benschop
 
 Example: 
