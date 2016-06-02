@@ -24,7 +24,7 @@ Author[Matlab] : Ying Chen
 Submitted : Fri, June 13 2014 by Felix Jung
 
 Input: 
-- FALSE: Number of Intervals
+- n: Number of Intervals
 - k: Exercise Price
 - i: Interest Rate
 - t: Time to Expiration
