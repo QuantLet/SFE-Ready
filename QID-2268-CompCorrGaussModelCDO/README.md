@@ -31,7 +31,7 @@ Input:
 - trueSpread: scalar, true spread
 
 Output: 
-- TRUE: implied tranche correlation
+- y: implied tranche correlation
 
 Example : An example call is included in ExampleCallCompCorrGaussModelCDO.m.
 
