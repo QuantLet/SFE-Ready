@@ -25,7 +25,7 @@ Submitted : Tue, December 03 2013 by Awdesch Melzer
 
 Input: 
 - i: Interest Rate
-- FALSE: Number of Intervals
+- n: Number of Intervals
 - pdiv: Dividends as a percentage of the stock price amount
 - nodiv: Times of Dividend Payoff
 - tdiv: Time Point of Dividend Payoff
