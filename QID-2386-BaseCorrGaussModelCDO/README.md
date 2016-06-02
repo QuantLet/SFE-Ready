@@ -38,7 +38,7 @@ Input:
 - LowerTloss: Lower expecter tranche losses from lowerTrLossGauss routine
 
 Output: 
-- TRUE: Base tranche correlation
+- y: Base tranche correlation
 
 Example : An example call is included in BaseCorrGaussModelCDO.R.
 
