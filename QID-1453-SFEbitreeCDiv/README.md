@@ -26,7 +26,7 @@ Submitted : Tue, June 17 2014 by Thijs Benschop
 Input: 
 - i: Interest Rate
 - type: 0 is American, 1 is European
-- FALSE: Number of Intervals
+- n: Number of Intervals
 - k: Exercise Price
 - t: Time to Expiration
 - s0: Stock Price
