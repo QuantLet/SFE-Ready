@@ -2,7 +2,7 @@ Name of QuantLet: BaseCorrGaussModelCDO
 
 Published in: Statistics of Financial Markets
 
-Description: 'Computes the base tranche correlation.'
+Description: 'Computes the base tranche correlation for a Gaussian credit default model.'
 
 Keywords: CDO, Credit Risk, Equity tranche, Expected loss, Gauss Kronrod, Gaussian Model, bivariate, default, integration, multivariate normal, normal, numerical integration, correlation, gaussian, asset, financial, plot, graphical representation
 
@@ -10,7 +10,11 @@ See also: SFEbaseCorr, CompCorrGaussModelCDO, SFEPortfolioLossDensity, SFEcompCo
 
 Author: Awdesch Melzer
 
+Author[Matlab]: Barbara Choros
+
 Submitted: Wed, April 23 2014 by Awdesch Melzer
+
+Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult
 
 Input: 
 - a (scalar) : point from interval for optimization algorithm
@@ -26,4 +30,6 @@ Input:
 Output: 
 - y : Base tranche correlation
 
-Example: 'y = BaseCorrGaussModelCDO(a, R, defProb, UAP, LAP, DF, DayCount, trueSpread, LowerTLoss)'
+Example: 'An example call is included in BaseCorrGaussModelCDO.R.'
+
+Example[Matlab]: 'An example call for Matlab is included in ExampleCallBaseCorrGaussModelCDO.m'
