@@ -8,8 +8,6 @@ Keywords: box-muller, distribution, graphical representation, normal-distributio
 
 Author: Brenda López Cabrera
 
-Author[Matlab]: Brenda López Cabrera
-
 Submitted: Thu, July 16 2015 by quantomas
 
 Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult
