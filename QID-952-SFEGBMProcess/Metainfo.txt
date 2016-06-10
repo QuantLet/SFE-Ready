@@ -6,11 +6,15 @@ Description: 'Simulation of discrete observations of a Geometric Brownian Motion
 
 Keywords: Euler, brownian-motion, direct integration, discrete, geometric-brownian-motion, graphical representation, normal-distribution, plot, process, random-number-generation, simulation, stochastic, stochastic-process, wiener-process
 
-See also: SFEsimGBM, SFEbsbm, SFEDeltaHedging, SFEWienerProcess, SFSbb, SFEwienerdens
+See also: SFEsimGBM, SFEbsbm, SFEDeltaHedging, SFEWienerProcess, SFSbb, SFEwienerdens, SFEsimCIR
 
 Author: Alexander Ristig
 
+Author[Matlab]: Ekaterina Ignatieva
+
 Submitted: Tue, June 17 2014 by Franziska Schulz
+
+Submitted[Matlab]: Tue, June 17 2014 by Franziska Schulz
 
 Input: 
 - method : type of method used
