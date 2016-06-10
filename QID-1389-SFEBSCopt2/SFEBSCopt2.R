@@ -68,10 +68,9 @@ if (use.defaults == FALSE) {
 
 set.seed(0)
 
-# Main computation
+# Main computation: Black-Scholes formula
 y = (log(S/K) + (b - (sig^2)/2) * tau)/(sig * sqrt(tau))
-c = exp(-(r - b) * tau) * S * pnorm(y + sig * sqrt(tau)) - exp(-r * tau) * K * 
-    pnorm(y)
+c = exp(-(r - b) * tau) * S * pnorm(y + sig * sqrt(tau)) - exp(-r * tau) * K * pnorm(y)
 
 # Output
 cat("Price of the European Call: ")
