@@ -81,7 +81,3 @@ plot(y, '-r')
 box on
 set(gca, 'LineWidth', 1.6, 'FontSize', 16, 'FontWeight', 'Bold')
 hold on;
-
-
-
-
