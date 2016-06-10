@@ -21,7 +21,7 @@ Author[Matlab] : Marlene Müller
 Submitted[Matlab] : Mon, May 02 2016 by Meng Jou Lu
 
 Input[Matlab]: 
-- TRUE: the returns of the assets method
+- y: the returns of the assets method
 - method: for VaR, one of 1 = RMA (rectangular moving average) 2 = EMA (exponential moving average)
 
 Output[Matlab] : VaR - the VaR for observations h+1 to n.
