@@ -10,9 +10,11 @@ See also: SFENormalApprox1, SFENormalApprox3, SFENormalApprox4
 
 Author: Wolfgang K. Haerdle
 Author[Matlab]: Wolfgang K. Haerdle
+Author[SAS]: Daniel T. Pele
 
 Submitted: Mon, November 24 2014 by Awdesch Melzer
 Submitted[Matlab]: Wed, April 27 2016 by Ya Qian
+Submitted[SAS]: Fri, June 06 2014 by Lukas Borke
 
 Output: 
 - phi : approximation of Normal cdf at different values
