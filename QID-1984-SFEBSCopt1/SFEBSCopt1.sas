@@ -1,38 +1,3 @@
-* ---------------------------------------------------------------------
-* Book:         SFE3
-* ---------------------------------------------------------------------
-* Quantlet:     SFEBSCopt1 
-* ---------------------------------------------------------------------
-* Description:  SFEBSCopt1 calculates the price of a call with
-*				the BS formula.
-* ---------------------------------------------------------------------
-* Usage:        - 
-* ---------------------------------------------------------------------
-* Inputs:       K - Strike price
-*               S - Spot price
-*               r - Interest rate
-*               tau - Remaining time
-*               b - Cost of carry
-*               sig - Volatility
-* ---------------------------------------------------------------------
-* Keywords:  Black Scholes, European, call, normal approximation, 
-*				normal distribution, option
-* ---------------------------------------------------------------------
-* Output:       ca - Price of European Call norm-a
-*               cb - Price of European Call norm-b
-*               cc - Price of European Call norm-c
-*               cd - Price of European Call norm-d
-* ---------------------------------------------------------------------
-* Example:      For [spot price, strike price, interest rate]=
-*               [230, 210,0.04545], 
-*               [cost of carry b, volatility sig, tau]=
-*               [0.04545, 0.25, 0.5], Price of European Call 
-*               norm-[a b c d] is given [30.74261498752455, 
-*               30.74158453943994, 30.74351803282866, 
-*               30.74157465178894].
-* ---------------------------------------------------------------------
-* Author:       Daniel Traian Pele
-* ---------------------------------------------------------------------;
 
 * Reset the working evironment;
 goptions reset = all;
