@@ -11,7 +11,10 @@ lapply(libraries, function(x) if (!(x %in% installed.packages())) {
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 # set working directory
-setwd('C:/Users/Christoph/Documents/Gitlab/SFEMatlab10Qls/QID-1899-SFECIRmle/')
+# setwd('C:/...')
+
+# load data
+data        = read.table("yield_US3month9808.txt")
 
 # Log-likelihood function of CIR model
 CIRml = function(Params){
@@ -33,10 +36,7 @@ CIRml = function(Params){
 }
 
 
-
 # MAIN  CALCULATION
-# load data
-data        = read.table("yield_US3month9808.txt")
 
 # Model
 Model       = NULL

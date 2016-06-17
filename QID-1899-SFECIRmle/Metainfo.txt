@@ -22,5 +22,3 @@ Input[Matlab]:
 - yield_US3month9808: text file for the annualized yield on U.S. Treasury Bills with three months to maturity
 
 Output: 'MLE estimates of the parameters of the CIR model using the yields of the US 3 month treasury bill (1998-2008)'
-
-Code problems[R]: Error in -yhat$fval : invalid argument to unary operator
