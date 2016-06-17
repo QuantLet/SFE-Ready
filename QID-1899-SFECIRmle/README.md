@@ -40,8 +40,8 @@ treasury bill (1998-2008)'
 ```
 
 
-### MATLAB Code:
-```matlab
+### R Code:
+```r
 
 # clear history
 rm(list = ls(all = TRUE))
@@ -129,8 +129,8 @@ print(paste("log-likelihood = ", Results$Fval))
 
 ```
 
-### R Code:
-```r
+### MATLAB Code:
+```matlab
 % clear history
 clear all
 % load data file
