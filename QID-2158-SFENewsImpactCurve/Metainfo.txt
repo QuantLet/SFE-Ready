@@ -10,7 +10,11 @@ See also: kern
 
 Author: Awdesch Melzer
 
+Author[Matlab]: Awdesch Melzer
+
 Submitted: Wed, April 24 2013 by Maria Osipenko
+
+Submitted[Matlab]: Wed, April 24 2013 by Maria Osipenko
 
 Datafiles: dax99.dat
 
