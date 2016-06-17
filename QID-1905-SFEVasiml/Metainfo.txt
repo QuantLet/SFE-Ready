@@ -1,0 +1,15 @@
+Name of QuantLet: SFEVasiml
+
+Published in: Statistics of Financial Markets
+
+Description: 'SFEVasiml shows the estimation of Vasicek model using 2600 observations of the yields of the US 3 month treasury bill from 19980102 to 20080522.'
+
+Keywords: interest-rate, likelihood, vasicek
+
+Author: Li Sun, Awdesch Melzer
+
+Submitted: Thu, September 27 2012 by Dedy Dwi Prastyo
+
+Datafiles: yield_US3month9808.txt
+
+Code problems: 'Error in -yhat$fval : invalid argument to unary operator'
