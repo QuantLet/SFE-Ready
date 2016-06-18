@@ -4,7 +4,7 @@ Published in: Statistics of Financial Markets
 
 Description: 'Calculates MLE estimates of the parameters of the Calibrating Interest Rate Model using the yields of the US 3 month treasury bill (1998-2008).'
 
-Keywords: financial, CIR, calibration, MLE, maximum likelyhood, interest rate, likelihood, least-squares, optimization, estimation
+Keywords: financial, CIR, calibration, MLE, maximum-likelihood, interest-rate, likelihood, least-squares, optimization, estimation
 
 See also: SFEcir, SFEscap, SFEscomCIR, CIRml, SFEcapvola, SFEsimCIR2, SFEsimVasi, SFEustb, vola
 

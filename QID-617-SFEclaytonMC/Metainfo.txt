@@ -4,7 +4,7 @@ Published in: Statistics of Financial Markets
 
 Description: 'Plots two pseudo random variables with uniform distribution and N(0,1) distribution with dependence structure given by Clayton copula, theta=0.79.'
 
-Keywords: copula, distribution, normal, normal distribution, uniform, plot, graphical representation, clayton, random
+Keywords: copula, distribution, normal, normal-distribution, uniform, plot, graphical representation, clayton, random
 
 See also: SFEplotCop, SFEstaticCop, SFEtCop, SFEVaRcopulaSIM2ptv, SFEArchCopDensity, BCS_ClaytonMC, SFEfrechet, SFEgaussCop, SFEresDens, SFEtMC, SFScontourgumbel, SFEgaussCop
 

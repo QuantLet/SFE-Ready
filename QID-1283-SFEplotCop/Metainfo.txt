@@ -4,7 +4,7 @@ Published in: Statistics of Financial Markets
 
 Description: 'Plots (joint) pdf contours of a standard normal and a t3 distributed variable with normal, Clayton, Frank and Gumbel Copula.'
 
-Keywords: copula, distribution, normal, normal distribution, plot, graphical representation, pdf, density, clayton, Frank, gaussian, gumbel
+Keywords: copula, distribution, normal, normal-distribution, plot, graphical representation, pdf, density, clayton, Frank, gaussian, gumbel
 
 See also: SFEclaytonMC, SFEstaticCop, SFEtCop, SFEVaRcopulaSIM2ptv, SFEArchCopDensity, BCS_ClaytonMC, SFEfrechet, SFEgaussCop, SFEresDens, SFEtMC, SFScontourgumbel, SFEgaussCop
 

@@ -4,7 +4,7 @@ Published in: Statistics of Financial Markets
 
 Description: 'Plots the Charm of a call option (Charm or Delta bleed). Charm is divided by 365 to reflect the effect of a single day passing by.'
 
-Keywords: 'asset, black-scholes, call, delta, european-option, financial, graphical representation, greeks, maturity, option, option-price, plot, price.' 
+Keywords: 'asset, black-scholes, call, delta, european-option, financial, graphical representation, greeks, maturity, option, option-price, plot, price' 
 
 Author: Andreas Golle, Awdesch Melzer
 
