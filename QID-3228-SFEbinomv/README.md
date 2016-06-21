@@ -22,7 +22,7 @@ Author : Cindy Lamm, Ying Chen, Christian M. Hafner
 Submitted : Sat, June 13 2015 by Lukas Borke
 
 Input: 
-- FALSE: number of steps
+- n: number of steps
 - k: number of paths
 - p: probability of up movement
 
