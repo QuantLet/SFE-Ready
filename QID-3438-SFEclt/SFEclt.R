@@ -14,7 +14,7 @@ p = 0.5
 n = 35
 
 # Random generation of the binomial distribution with parameters 1000*n and 0.5
-bsample = rbinom(n * 1000, 1, 0.5)  
+bsample = rbinom(n * 1000, 1, p)  
 
 # Create a matrix of binomial random variables
 bsamplem = matrix(bsample, n, 1000) 
