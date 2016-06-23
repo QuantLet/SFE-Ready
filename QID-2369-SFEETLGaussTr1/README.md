@@ -36,8 +36,8 @@ Example : Plot of expected loss of the equity tranche.
 ![Picture2](SFEETLGaussTr1_1_m.png)
 
 
-### MATLAB Code:
-```matlab
+### R Code:
+```r
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
@@ -127,8 +127,8 @@ plot(rho, etl, main = "Expected Loss", col = "black", lwd = 2, xlab = expression
     ylim = c(0, 0.15))
 ```
 
-### R Code:
-```r
+### MATLAB Code:
+```matlab
 clear all
 close all
 clc
