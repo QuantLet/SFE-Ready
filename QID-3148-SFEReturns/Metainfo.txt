@@ -16,5 +16,12 @@ Keywords:
 - statistics
 - test
 Author: Joanna Tomanek
+Author[Matlab]: Andrija Mihoci
 Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted[Matlab]: Mon, May 02 2016 by Meng Jou Lu
+Input[Matlab]:
+- Params: a, b, sigma
+- X: yields of the US 3 month treasury bill
+Output[Matlab]: Value of the log-likelihood function in Vasicek model.
 Datafiles: sfm_pri.dat
+Datafiles[Matlab]: FTSE_DAX.dat
