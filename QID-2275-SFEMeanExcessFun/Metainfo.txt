@@ -10,6 +10,10 @@ See also: SFEportfolio, SFEportlogreturns, SFEdenport, SFEclose, SFEtailGEV_pp, 
 
 Author: Barbara Choros-Tomczyk, Awdesch Melzer
 
+Author[Matlab]: Barbara Choros-Tomczyk
+
 Submitted: Fri, November 29 2013 by Awdesch Melzer
+
+Submitted[Matlab]: Fri, November 29 2013 by Awdesch Melzer
 
 Datafiles: BAYER_close_0012.dat, BMW_close_0012.dat, SIEMENS_close_0012.dat, VW_close_0012.dat
