@@ -1,24 +1,31 @@
-Name of QuantLet: ETL
+Name of Quantlet: ETL
 
 Published in: Statistics of Financial Markets
 
-Description: 'Calculates expected loss of the equity tranche calculated using the one factor Gaussian model with one-year default probability computed from the iTraxx Index Series 8 with 5 years maturity on 20071022.'
+Description: 'Claculates expected loss of the equity tranche using the one factor Gaussian model
+with one-year default probability computed from the iTraxx index Series 8 with 5 years maturity 
+on 20071022. Package pracma for numerical integration is required.'
 
-Keywords: Credit Risk, Equity tranche, Expected loss, Gauss Kronrod, default, integration, multivariate normal, normal, numerical integration, gaussian, asset, financial, plot, graphical representation
+Keywords: 'Expected loss, default, Credit Risk, Equity tranche, multivariate normal, Gauss Kronrod,
+numerical integration, integration, normal, gaussian, asset, financial, plot, graphical representation'
 
-See also: SFEbaseCorr, CompCorrGaussModelCDO, SFEPortfolioLossDensity, SFEcompCorr, SFEgaussCop, BaseCorrGaussModelCDO, SFEETLGaussTr1, lowerTrLossGauss
+See also: 'SFEbaseCorr, SFEcompCorr, ETL, lowerTrLossGauss, BaseCorrGaussModelCDO, SFEdefault,
+SFEmyfun, CompCorrGaussModelCDO, SFEPortfolioLossDensity, SFEgaussCop, SFEETLGaussTr1'
 
 Author: Awdesch Melzer
 
 Submitted: Wed, April 23 2014 by Awdesch Melzer
+Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult
 
-Input: 
-- defProb (scalar) : default probability
-- R (scalar) : recovery rate
-- UAP (scalar) : Upper attachment points
-- a (scalar) : square-root of compound correlation
+Input:
+- a: scalar, point from interval for optimization algorithm
+- R: scalar, recovery rate of security
+- defProb: scalar, default probability
+- UAP: scalar, upper attachment point of CDO tranche
 
 Output:
-- EL (scalar) : expected loss
+- EL: expected loss
 
-Example: 'EL = ETL(a,R,defProb,UAP)'
+Example: 'An example call for R is included at the end of ETL.R.'
+
+Example[Matlab]: 'An example call for Matlab is included in ExampleCallETL.m.'
