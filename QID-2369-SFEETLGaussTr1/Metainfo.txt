@@ -10,6 +10,10 @@ See also: BaseCorrGaussModelCDO, CompCorrGaussModelCDO, SFEPortfolioLossDensity,
 
 Author: Awdesch Melzer
 
+Author[Matlab]: Barbara Choros
+
 Submitted: Wed, April 23 2014 by Awdesch Melzer
+
+Submitted[Matlab]: Fri, November 22 2013 by Awdesch Melzer
 
 Example: Plot of expected loss of the equity tranche.
