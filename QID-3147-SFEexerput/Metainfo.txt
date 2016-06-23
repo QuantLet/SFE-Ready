@@ -8,9 +8,11 @@ Keywords: 'Newton, black-scholes, european-option, exercise-price, financial, op
 
 Author: Ying Chen
 Author[Matlab]: Yanwu Wang, Ying Chen
+Author[SAS]: Daniel T. Pele
 
 Submitted: Fri, June 05 2015 by Lukas Borke
 Submitted[Matlab]: Thu, April 28 2016 by Ya Qian
+Submitted[SAS]: Thu, April 24 2014 by Petra Burdejova
 
 Input:
 - t0 : Spot Date
