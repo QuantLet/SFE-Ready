@@ -4,6 +4,8 @@ Description: 'Shows an intersection of the implied volatility surface, illustrat
 Keywords: atm, black-scholes, dax, financial, implied-volatility, index, option, surface, term structure, vdax, volatility
 See also: SFEVolSurfPlot, SFEVolSurfPlot, SFEVolaCov, SFEVolaPCA
 Author: Joanna Tomanek
+Author[Matlab]: Wolfgang K. Härdle
 Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted[Matlab]: Thu, February 04 2010 by Lasse Groth
 Datafiles: implvola.dat
 Example: Time to maturity structure of implied DAX volatilities at the money.
