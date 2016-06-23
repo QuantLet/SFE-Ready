@@ -18,6 +18,8 @@ Keywords:
 - returns
 See also: MMSTATdistribution_normal
 Author: Joanna Tomanek
+Author[Matlab]: Awdesch Melzer
 Submitted: Fri, June 12 2015 by Lukas Borke
+Submitted[Matlab]: Wed, April 24 2013 by Maria Osipenko
 Datafiles: dax99.dat
 Example: DAX Density (blue) versus Normal Density (black)
