@@ -37,8 +37,8 @@ iterations exceeded; no convergence reached.'
 ![Picture2](SFEbaseCorr_1_m.png)
 
 
-### MATLAB Code:
-```matlab
+### R Code:
+```r
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
@@ -179,8 +179,8 @@ text(5, sqrtBC[5]^2 + 0.04, txt[5], xpd = NA)
 
 ```
 
-### R Code:
-```r
+### MATLAB Code:
+```matlab
 clear all
 close all
 clc
