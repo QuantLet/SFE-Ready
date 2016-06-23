@@ -6,7 +6,7 @@ Description: 'Simulates AR(1), AR(2), MA(1), SAR(1) processes and computes the t
 
 Keywords: autoregressive, discrete, frequency, graphical representation, linear, moving-average, plot, process, simulation, spectral, spectral-density, stochastic, stochastic-process, time-series
 
-See also: SFESpecWN
+See also: SFESpecWN, SFEPer, SFEFreqFilt, SFESignal, SFETsDecomp
 
 Author: Caroline Kleist, Elisabeth Bommes
 
