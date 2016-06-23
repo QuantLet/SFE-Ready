@@ -26,7 +26,7 @@ Submitted[SAS] : Thu, April 24 2014 by Franziska Schulz
 
 Input: 
 - p: probability used for plot
-- FALSE: number used for plot
+- n: number used for plot
 - x1: x used for calculation
 - p1: probability used for calculation
 - n1: number used for calculation
