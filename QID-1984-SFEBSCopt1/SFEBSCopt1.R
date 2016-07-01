@@ -27,7 +27,7 @@ ReadConsoleInput = function(prompt.message, bounds) {
 
 # parameter settings
 K   = 210
-S   = 220
+S   = 230
 r   = 0.04545
 b   = 0.04545
 tau = 0.5
