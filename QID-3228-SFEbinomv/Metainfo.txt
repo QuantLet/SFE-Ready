@@ -4,13 +4,15 @@ Published in: Statistics of Financial Markets
 
 Description: 'Plots and compares the density of generated binomial processes with the density of normally distributed random variables.'
 
-Keywords: binomial, density, distribution, estimation, graphical representation, kernel, normal, normal-distribution, plot, process, random-number-generation
+Keywords: 'binomial, density, distribution, estimation, graphical representation, kernel, normal, normal-distribution, plot, process, random-number-generation'
 
 See also: SFEBinomp, SFEWienerProcess, SFEbinomv_log
 
 Author: Cindy Lamm, Ying Chen, Christian M. Hafner
+Author[Matlab]: Ying Chen, Christian M. Hafner
 
 Submitted: Sat, June 13 2015 by Lukas Borke
+Submitted[Matlab]: Wed, April 27 2016 by Ya Qian
 
 Input:
 - n : number of steps
