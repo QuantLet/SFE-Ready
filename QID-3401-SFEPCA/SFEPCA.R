@@ -1,3 +1,4 @@
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -30,4 +31,4 @@ plot(f1, col = "blue3", ylim = c(-0.6, 0.8), lwd = 2, type = "l", xlab = "Time",
     ylab = "Percentage [%]", main = "Factor loadings")
 points(f1)
 lines(f2, col = "red3", lwd = 2, lty = "dotdash")
-points(f2) 
+points(f2)
