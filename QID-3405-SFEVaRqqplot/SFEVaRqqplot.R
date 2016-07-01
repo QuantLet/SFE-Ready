@@ -1,3 +1,4 @@
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -68,4 +69,4 @@ opt2 = VaRest(y, 2)
 # Plots
 par(mfrow = c(2, 1))
 VaRqqplot(y, opt1)
-VaRqqplot(y, opt2) 
+VaRqqplot(y, opt2)

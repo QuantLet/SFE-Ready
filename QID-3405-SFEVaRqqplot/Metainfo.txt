@@ -1,3 +1,4 @@
+
 Name of QuantLet : SFEVaRqqplot
 
 Published in: Statistics of Financial Markets
@@ -13,8 +14,6 @@ Author[Matlab]: Marlene Mueller
 
 Submitted: Sat, July 18 2015 by quantomas
 Submitted[Matlab]: Mon, May 2 2016 by Meng Jou Lu
-
-Output: QQ plot
 
 Datafiles: kupfer.dat
 
