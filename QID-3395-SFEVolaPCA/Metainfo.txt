@@ -4,5 +4,7 @@ Description: 'Calculates the explained sample variance and the cumulative varian
 Keywords: dax, financial, implied-volatility, pca, variance, vdax, volatility
 See also: SFEVolSurfPlot, SFEVolSurfPlot, SFEVolaCov, SFEVolaTermStructure
 Author: Joanna Tomanek
+Author[Matlab]: Wolfgang K. Härdle, Lasse Groth
 Submitted: Fri, July 17 2015 by quantomas
+Submitted[Matlab]: Fri, February 19 2010 by Lasse Groth
 Datafiles: implvola.dat
