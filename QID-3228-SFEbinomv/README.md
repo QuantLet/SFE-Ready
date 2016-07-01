@@ -30,7 +30,7 @@ Submitted[Matlab] : Wed, April 27 2016 by Ya Qian
 Submitted[SAS] : Mon, June 30 2014 by Philipp Gschoepf
 
 Input: 
-- FALSE: number of steps
+- n: number of steps
 - k: number of paths
 - p: probability of up movement
 
