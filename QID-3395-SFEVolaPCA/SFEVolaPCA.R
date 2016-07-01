@@ -25,4 +25,4 @@ l = e$values
 l/sum(l) * 100
 
 # cumulative sum of percentage of explained variance
-cumsum(l/sum(l) * 100) 
+cumsum(l/sum(l) * 100)
