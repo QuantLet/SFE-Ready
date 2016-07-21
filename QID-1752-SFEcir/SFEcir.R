@@ -33,8 +33,8 @@ nn   = c(1, 50)
 mm   = c(min(wlim[, 2], w[, 2]), max(wlim[, 2], w[, 2]))
 
 # plot
-plot(nn, mm, type = "n", main = "Yield Curve, Cox/Ingersoll/Ross Model", xlab = "Time to Maturity", 
-    ylab = "Yield")
+plot(nn, mm, type = "n", main = "Yield Curve, Cox/Ingersoll/Ross Model",
+     xlab = "Time to Maturity", ylab = "Yield")
 lines(w, col = 4, lwd = 2)
 lines(wlim, col = 2, lwd = 2)
 

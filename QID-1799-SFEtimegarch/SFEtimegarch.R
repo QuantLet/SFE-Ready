@@ -10,7 +10,8 @@ install.packages(x)
 })
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
-time = seq(1, 1000, 1)
-x = garchSim(garchSpec(model = list(omega = 0.1, alpha = 0.15, beta = 0.8), rseed = 100), 
-    n = 1000)
-plot(time, x, type = "l", ylab = "Y", xlab = "Time", main = "Simulated GARCH(1,1) Process")
+time  = seq(1, 1000, 1)
+specs = list(model = list(omega = 0.1, alpha = 0.15, beta = 0.8), rseed = 100) 
+x     = garchSim(garchSpec(specs), n = 1000)
+plot(time, x, type = "l", ylab = "Y", xlab = "Time", 
+     main = "Simulated GARCH(1,1) Process")

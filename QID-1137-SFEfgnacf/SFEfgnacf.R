@@ -22,13 +22,12 @@ z2  = diff(dz2)
 # plot
 par(mfrow = c(2, 2))
 plot(z1, type = "l", col = "blue", xlab = "", ylab = "", main = "H1 = 0.2", cex.lab = 1.4, 
-    cex.main = 1.6)
+     cex.main = 1.6)
 plot(z2, type = "l", col = "blue", xlab = "", ylab = "", main = "H1 = 0.8", cex.lab = 1.4, 
-    cex.main = 1.6)
+     cex.main = 1.6)
 
-ac1 = acf(z1, lag.max = 60, plot = F)
-ac2 = acf(z2, lag.max = 60, plot = F)
+ac1 = acf(z1, lag.max = 60, plot = FALSE)
+ac2 = acf(z2, lag.max = 60, plot = FALSE)
 
 plot(ac1, cex.axis = 1.6, cex.lab = 1.6, ylab = "", main = "ACF", cex.main = 1.6)
 plot(ac2, cex.axis = 1.6, cex.lab = 1.6, ylab = "", main = "ACF", cex.main = 1.6)
-
