@@ -1,3 +1,4 @@
+
 Name of QuantLet : SFEacfma2
 Published in: Statistics of Financial Markets
 Description: 'Plots the autocorrelation function of a MA(2) (moving average) process for different parameters.'
@@ -22,6 +23,17 @@ See also:
 - SFEacfar2
 - SFEacfma1
 - SFEpacfma2
-Author: Joanna Tomanek
-Submitted: Mon, June 08 2015 by Lukas Borke
-Example: 'Plots the ACF of a MA(2) process with beta1=0.5, beta2=0.4 (top left), beta1=0.5, beta2=-0.4 (top right), beta1=-0.5, beta2=0.4 (bottom left) and beta1=-0.5, beta2=-0.4 (bottom right).'
+
+Author[R]: Joanna Tomanek
+Author[SAS]: Daniel T. Pele
+
+Submitted[R]: Mon, June 08 2015 by Lukas Borke
+Submitted[SAS]: Tue, June 17 2014 by Sergey Nasekin
+
+Input:
+- beta1: value of beta_1
+- beta_2: value of beta_2
+- lag: lag value
+
+Example: 'Plots the ACF of a MA(2) process with beta1=0.5, beta2=0.4 (top left), beta1=0.5, beta2=-0.4 (top right),
+beta1=-0.5, beta2=0.4 (bottom left) and beta1=-0.5, beta2=-0.4 (bottom right).'
