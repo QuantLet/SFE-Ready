@@ -25,9 +25,11 @@ See also:
 - SFEpacfma2
 
 Author[R]: Joanna Tomanek
+Author[Matlab]: Ying Chen, Christian M. Hafner, Lasse Groth
 Author[SAS]: Daniel T. Pele
 
 Submitted[R]: Mon, June 08 2015 by Lukas Borke
+Submitted[Matlab]: Tue, January 19 2010 by Lasse Groth
 Submitted[SAS]: Tue, June 17 2014 by Sergey Nasekin
 
 Input:
@@ -37,3 +39,6 @@ Input:
 
 Example: 'Plots the ACF of a MA(2) process with beta1=0.5, beta2=0.4 (top left), beta1=0.5, beta2=-0.4 (top right),
 beta1=-0.5, beta2=0.4 (bottom left) and beta1=-0.5, beta2=-0.4 (bottom right).'
+
+Example[Matlab]: 'User inputs the SFEacfma2 parameters [lag, beta1, beta2] as [30, 0.5, 0.4].
+Plots of the autocorrelation function of MA(2) processes with [β1,β2] = [+/- 0.5, +/- 0.4] are given.'
