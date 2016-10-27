@@ -37,51 +37,16 @@ Wiener process simulation is produced.'
 
 
 ```r
-
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
 
-# inputs parameters
-print("Please input Delta t, Constant c, Time moment s  as: 0.01 2 150")
-print("then press enter two times")
-para = scan()
-
-while (length(para) < 3) {
-    print("Not enough input arguments. Please input in 1*3 vector form like 0.01 2 150")
-    print(" ")
-    print("[dt c s]=")
-    para = scan()
-}
-
-dt = para[1]  # Delta t
-c  = para[2]  # Constant c
-s  = para[3]  # Time moment s
-
-# Check conditions
-if (dt <= 0) {
-    print("SFEwienerdens: Delta t should be positive! Please input again. dt=")
-    s0 = scan()
-}
-if (s < 0) {
-    print("SFEwienerdens: Time moment s should be positive! Please input again. s=")
-    s = scan()
-}
-
-print(" ")
-print("Please input Left limit a, Right limit b, The initial value of the process x0  as: 90 110 50")
-print("then press enter two times")
-para2 = scan()
-
-while (length(para2) < 3) {
-    print("Not enough input arguments. Please input in 1*3 vector form like 90 110 50")
-    print("[a b x0]=")
-    para2 = scan()
-}
-
-a  = para2[1]  # 1 is call/0 is put
-b  = para2[2]  # Contionous dividend in percentage
-x0 = para2[3]
+dt = 0.01 # Delta t
+c  = 2    # Constant c
+s  = 150  # Time moment s
+a  = 90   # left limit a
+b  = 110  # right limit b
+x0 = 50   # initial value of process
 
 # Main calculation
 l = 200
@@ -146,5 +111,6 @@ axis(side = 1, at = seq(0, max(f) * 100, 5000), label = seq(0, max(f) * 100, 500
     lwd = 0.5)
 abline(h = seq(-200, 200, by = 10), lty = "dotted", lwd = 0.5, col = "grey")
 abline(v = seq(0, max(f) * 100, 2500), lty = "dotted", lwd = 0.5, col = "grey")
+
 
 ```
