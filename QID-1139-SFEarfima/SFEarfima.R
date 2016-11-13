@@ -24,7 +24,7 @@ arfima2 = fracdiff.sim(N, AR, MA, d2)
 
 # Plot
 par(mfrow = c(2, 1))
-plot(arfima1$series, main = " ARFIMA(AR,MA,d)", type = "l", col = "blue", xlab = "", ylab = "", ylim = c(-5, 
-    5), cex.lab = 1.4)
-plot(arfima2$series, main = " ARFIMA(AR,MA,-d)", type = "l", col = "blue", xlab = "", ylab = "", ylim = c(-5, 
-    5), cex.lab = 1.4)
+plot(arfima1$series, main = "ARFIMA(AR,MA,d)", type = "l", col = "blue", 
+     xlab = "", ylab = "", ylim = c(-5, 5), cex.lab = 1.4)
+plot(arfima2$series, main = "ARFIMA(AR,MA,-d)", type = "l", col = "blue",
+     xlab = "", ylab = "", ylim = c(-5, 5), cex.lab = 1.4)
